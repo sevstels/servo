@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{7c11e9fd-1e52-40e8-81d5-be7972c84eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tooltip">
+      <UniqueIdentifier>{036ee410-01bb-43b2-9dbc-5f85ff9d468f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinReg">
+      <UniqueIdentifier>{2e71d1ba-68bb-4b13-9c7b-e5c0ef80bc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog position">
+      <UniqueIdentifier>{39f5d947-be1c-4c40-861d-c0f1d3c26691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{28485f81-540a-42a0-8cce-660f0a86e928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{69fd0127-bacc-4c3c-afa5-e04f4917b1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device struct">
+      <UniqueIdentifier>{6fbd4650-891f-4e23-8a3f-1071b364f70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{32dbbb88-f606-4fc3-99f2-03a1b43ecc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CAN">
+      <UniqueIdentifier>{a3ec7736-955e-4fbc-922e-75e75e49dad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{70c0922c-a9f7-4670-b1bb-d3365cdd786b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color Text">
+      <UniqueIdentifier>{75331afc-1e0f-4799-bdf3-aef9a7e7a5cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SCPC.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\SCPC.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ToolTip\tooltip.h">
+      <Filter>Tooltip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinReg\AppWinReg.h">
+      <Filter>WinReg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application\SCPC.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainDialog\SCPCDlg.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cmd\cmd.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeviceStruct\device.h">
+      <Filter>Device struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Files\files.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CAN\candll.h">
+      <Filter>CAN</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorTxt\ColorStaticST.h">
+      <Filter>Color Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DialogPos\dialog-pos.h">
+      <Filter>Dialog position</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ToolTip\tooltip.cpp">
+      <Filter>Tooltip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinReg\AppWinReg.cpp">
+      <Filter>WinReg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application\SCPC.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainDialog\SCPCDlg.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Functions\functions.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Functions\thread.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Files\files.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorTxt\ColorStaticST.cpp">
+      <Filter>Color Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DialogPos\dialog-pos.cpp">
+      <Filter>Dialog position</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SCPC.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
