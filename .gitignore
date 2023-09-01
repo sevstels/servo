@@ -23,9 +23,9 @@ Thumbs.db
 *.res
 [Bb]in
 [Dd]ebug*/
+[Ii]pch*/
 *.sbr
 obj/
-[Ii]pch*/
 _ReSharper*/
 *.vssscc
 $tf*/
