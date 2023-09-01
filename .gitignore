@@ -25,6 +25,7 @@ Thumbs.db
 [Ww]in32*/
 *.sbr
 obj/
+ipch/
 [Rr]elease*/
 _ReSharper*/
 *.vssscc
