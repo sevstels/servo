@@ -21,11 +21,9 @@ Thumbs.db
 *.log
 [Bb]in
 [Dd]ebug*/
-[Ww]in32*/
 *.sbr
 obj/
-ipch/
-[Rr]elease*/
+[Ii]pch*/
 _ReSharper*/
 *.vssscc
 $tf*/
