@@ -22,6 +22,7 @@ Thumbs.db
 *.tlog
 *.res
 [Bb]in
+[Ww]in32*/
 [Dd]ebug*/
 [Ii]pch*/
 *.sbr
